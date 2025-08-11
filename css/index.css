@@ -237,4 +237,10 @@ footer .icon .fa-youtube:hover {
     .sec1 {
         margin-top: 4rem;
     }
+
+    .img-text {
+        width: 16.8rem;
+        height: 10rem;
+        font-size: 30px;
+    }
 }
