@@ -225,8 +225,12 @@ footer .icon .fa-youtube:hover {
 
     .img-text {
         width: 73%;
-        height: 73%;
-        font-size: 30px;
+        height: 67%;
+        font-size: 20px;
+    }
+
+    .zh2t {
+        height: 90%;
     }
 }
 
@@ -248,5 +252,9 @@ footer .icon .fa-youtube:hover {
         width: 73%;
         height: 71%;
         font-size: 30px;
+    }
+
+    .zh2t {
+        height: 85%;
     }
 }
