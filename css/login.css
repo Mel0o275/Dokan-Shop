@@ -1,0 +1,123 @@
+:root {
+    --mainColor: #cd5c5c;
+    --secondaryColor: #343a40;
+}
+
+.head {
+    color: var(--mainColor);
+}
+
+.login {
+    background-color: #f3f3f3;
+    border: 10px solid #f3f3f3;
+    border-radius: 30px;
+    outline-style: outset;
+    outline-color: #f3f3f3;
+    padding: 2rem;
+    width: 50%;
+}
+
+.facebook,
+.google {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px;
+    outline-style: outset;
+}
+
+.facebook {
+    background-color: blue;
+    outline-color: blue;
+}
+
+.google {
+    background-color: crimson;
+    outline-color: crimson;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[list="countries"] {
+    border-color: #f3f3f3;
+    width: 100%;
+}
+
+input[type="date"],
+input[list="countries"] {
+    color: var(--mainColor);
+}
+
+.reset {
+    background-color: var(--mainColor);
+}
+
+.submit {
+    color: white;
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+    border: none;
+    font-weight: 500;
+}
+
+.forget {
+    color: cornflowerblue;
+    transition: all 0.3s ease;
+}
+
+.forget:hover {
+    font-weight: 700;
+}
+
+.signup {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+}
+
+.text-p {
+    font-size: 17px;
+}
+
+.privacy {
+    color: #007BFF;
+}
+
+.privacy:hover {
+    text-decoration: underline;
+    color: rgb(0, 68, 176);
+    cursor: pointer;
+}
+
+@media (max-width: 1030px) {
+    .login {
+        width: 70%;
+    }
+
+    footer .home i {
+        font-size: 74px;
+    }
+
+    footer .home a {
+        font-size: 32px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 770px) {
+    .login {
+        width: 100%;
+    }
+}

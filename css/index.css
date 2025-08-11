@@ -1,0 +1,240 @@
+:root {
+    --mainColor : #CD5C5C;
+    --secondaryColor : #343A40
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box,
+.dropdown-menu,
+footer {
+    background-color: var(--secondaryColor);
+}
+
+.dropdown-item{
+    transition: all .3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--mainColor) !important;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.dropdown-divider,
+.active {
+    border-color: var(--mainColor);
+    color: var(--mainColor) !important;
+}
+
+i .fa-user-secret {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.navbar-brand i {
+    font-size: 42px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: var(--mainColor);
+    transform: scale(0.8);
+    border-radius: 18%;
+}
+
+.carousel-inner {
+    max-height: 100vh;
+}
+
+.carousel-inner::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 60%);
+}
+
+.carousel-indicators .active,
+.button button{
+    background-color: var(--mainColor);
+}
+
+.carousel-caption {
+    bottom: 35% !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 3px;
+    color: #777;
+    text-transform: capitalize;
+}
+
+.sec2 .icons {
+    color: #A9A9A9;
+}
+
+.img-text {
+    position: absolute;
+    width: 25rem;
+    height: 15rem;
+    top: 5%;
+    left: 13.5%;
+    color: white;
+    background-color: var(--mainColor);
+    transform: scale(0);
+    font-size: 45px;
+    transition: 0.5s all linear;
+    padding: 1rem 0;
+}
+
+.inner:hover .img-text {
+    transform: scale(0.9);
+}
+
+.form-control {
+    border-color: #767676 !important;
+}
+
+.sec5 .inner h3 {
+    color: var(--mainColor);
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.sec5 .inner p {
+    color: #777789;
+}
+
+input::placeholder {
+    color: #757575 !important;
+}
+
+input:focus,
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+textarea {
+    height: 15rem;
+    resize: none;
+}
+
+footer .home i {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 96px;
+}
+
+footer .home a {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer .home a:hover {
+    color: var(--mainColor);
+}
+
+footer h3 {
+    font-size: 21px;
+}
+
+footer li,
+footer li a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+footer li:hover,
+footer li a:hover {
+    color: var(--mainColor);
+}
+
+footer .icon i {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+footer .icon .fa-facebook-f:hover {
+    color: rgb(7, 66, 203);
+}
+
+footer .icon .fa-twitter:hover {
+    color: rgb(0, 172, 238);
+}
+
+footer .icon .fa-whatsapp:hover {
+    color: rgb(0, 255, 0);
+}
+
+footer .icon .fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 1030px) {
+    footer .home i {
+        font-size: 74px;
+    }
+
+    footer .home a {
+        font-size: 32px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .navbar-brand {
+        margin: 0;
+        font-size: small;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .sec1 {
+        margin-top: 4rem;
+    }
+}

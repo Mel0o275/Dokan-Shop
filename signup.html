@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;800&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/main-logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dokan Shop | login us</title>
+</head>
+
+<body>
+    <div class="box fixed-top">
+        <div class="container w-75">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="./index.html"><i
+                            class="fas fa-user-secret text-white me-1"></i>Dokan Shop</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-2">
+                                <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white" href="./index.html #latest">Latest Products</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white" href="./index.html #top">Top Deals</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white" href="./login.html">Login</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item text-white" href="./about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="./men.html">Men's</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="./women.html">Women's</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="./kids.html">Kids's</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="./accessories.html">Accessories</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="./contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="sec py-5 my-5">
+        <div class="container w-75 justify-content-center d-flex">
+            <div class="row login">
+                <h1 class="head mb-5">Registration Form</h1>
+                <form class="inputs">
+                    <div class="row gy-4">
+
+                        <div class="col-md-6 col-sm-12">
+                            <div class="inner">
+                                <label for="fn">First Name :</label>
+                                <input type="text" id="fn" class="px-1 mb-2" />
+                                <label for="bd">Birthdate :</label>
+                                <input type="date" id="bd" class="px-1 mb-2" />
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12">
+                            <div class="inner">
+                                <label for="ln">Last Name :</label>
+                                <input type="text" id="ln" class="px-1" />
+                                <div class="d-flex flex-column">
+                                    <label class="mt-2">Gender :</label>
+                                    <div class="d-flex mt-2">
+                                        <label><input type="radio" name="gender" value="Male" /> Male</label>
+                                        <label class="ms-3"><input type="radio" name="gender" value="Female" />
+                                        Female</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12 mt-3">
+                            <div class="inner">
+                                <label for="email">Email :</label>
+                                <input type="email" id="email" class="px-1 mb-2" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12 mt-3">
+                            <div class="inner">
+                                <label for="phone">Mobile Number :</label>
+                                <input type="number" id="phone" class="px-1" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mt-3">
+                            <div class="inner">
+                                <label for="country">Select your country :</label>
+                                <input list="countries" id="country" class="px-1" />
+                                <datalist id="countries">
+                                    <option value="Alexandria"></option>
+                                    <option value="Aswan"></option>
+                                    <option value="Asyut"></option>
+                                    <option value="Beheira"></option>
+                                    <option value="Beni-Suef"></option>
+                                    <option value="Cairo"></option>
+                                    <option value="Dakahlia"></option>
+                                    <option value="Damietta"></option>
+                                    <option value="Faiyum"></option>
+                                    <option value="Gharbia"></option>
+                                    <option value="Giza"></option>
+                                    <option value="Ismailia"></option>
+                                    <option value="Kafr El Sheikh"></option>
+                                    <option value="Luxor"></option>
+                                    <option value="Matruh"></option>
+                                    <option value="Minya"></option>
+                                    <option value="Monufia"></option>
+                                    <option value="New Valley"></option>
+                                    <option value="North Sinai"></option>
+                                    <option value="Port Said"></option>
+                                    <option value="Qalyubia"></option>
+                                    <option value="Qena"></option>
+                                    <option value="Red Sea"></option>
+                                    <option value="Sharqia"></option>
+                                    <option value="Sohag"></option>
+                                    <option value="South Sinai"></option>
+                                    <option value="Suez"></option>
+                                </datalist>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-3">
+                            <div class="align-items-baseline d-flex mt-2">
+                                <input type="checkbox" id="terms" />
+                                <p class="m-0 mt-4 ms-2 text-p">By signing up, you agree to the <span class="privacy">Terms of Service</span> and <span class="privacy">Privacy
+                                    Policy,</span>
+                                    including Cookie Use.</p>
+                            </div>
+                            <div class="buttons">
+                                <input type="reset" value="Reset"
+                                    class="px-3 text-white py-1 mt-3 mb-1 me-2 d-block reset border-0" />
+                                <input type="submit" value="Sign Up" class="px-2 py-1 text-white reset border-0" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 py-5">
+        <div class="container w-75 text-white">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="home justify-content-center d-flex mt-5">
+                        <i class="fas fa-user-secret text-white me-1"></i>
+                        <a href="#home">Dokan<br />Shop</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="">
+                        <h3 class="text-center">Shopping & Categories</h3>
+                        <ul class="list-unstyled d-flex flex-column gap-4 text-center mt-5">
+                            <li><a href="./men.html">Men's shopping</a></li>
+                            <li><a href="./women.html">Women's shopping</a></li>
+                            <li><a href="./kids.html">Kids's shopping</a></li>
+                            <li><a href="./accessories.html">Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="">
+                        <h3 class="text-center">Useful Links</h3>
+                        <ul class="list-unstyled d-flex flex-column gap-4 text-center mt-5">
+                            <li><a href="#home">Home Page</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="">
+                        <h3 class="text-center">Help & Information</h3>
+                        <ul class="list-unstyled d-flex flex-column gap-4 text-center mt-5">
+                            <li>Help</li>
+                            <li>FAQ'S</li>
+                            <li>Track Your Shipping</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="text-center">
+                <h5>Copyright © 2022 DokanShop Co., Ltd. All Rights Reserved.</h5>
+                <div class="icon d-flex gap-4 justify-content-center mt-4">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

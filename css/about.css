@@ -1,0 +1,249 @@
+:root {
+    --mainColor : #CD5C5C;
+    --secondaryColor : #343A40
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box,
+.dropdown-menu,
+footer {
+    background-color: var(--secondaryColor);
+}
+
+.dropdown-item{
+    transition: all .3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--mainColor) !important;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.dropdown-divider,
+.active {
+    border-color: var(--mainColor);
+    color: var(--mainColor) !important;
+}
+
+i .fa-user-secret {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.navbar-brand i {
+    font-size: 42px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: var(--mainColor);
+    transform: scale(0.8);
+    border-radius: 18%;
+}
+
+.sec1 {
+    background-image: url('../img/about/imgi_10_about-us-page-heading.jpg');
+    background-size: cover;
+    height: 26rem;
+}
+
+.sec1 h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.sec1 p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.sec2 .icon .fa-facebook-f,
+.sec2 .icon .fa-twitter,
+.sec2 .icon .fa-whatsapp,
+.sec2 .icon .fa-youtube {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sec2 .inner-map {
+    border: 6px solid white;
+    outline-color: whitesmoke;
+    outline-style: inset;
+    outline-width: 8px;
+    outline-offset: 5px;
+    width: fit-content;
+}
+
+iframe {
+    width:  100%;
+    height: 60vh;
+}
+
+.sec2 .icon .fa-facebook-f:hover,
+.sec2 .icon .fa-twitter:hover,
+.sec2 .icon .fa-whatsapp:hover,
+.sec2 .icon .fa-youtube:hover {
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
+
+.title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 3px;
+    color: #777;
+    text-transform: capitalize;
+}
+
+.sec4 .inner {
+    outline-style: outset;
+    outline-color: whitesmoke;
+    padding: 30px 0;
+}
+
+.sec4 .inner p {
+    color: #777;
+    font-weight: 300;
+}
+
+.form-control {
+    border-color: #767676 !important;
+}
+
+.sec5 .inner h3,
+.sec2 .inner h3 {
+    color: var(--mainColor);
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.sec5 .inner p,
+.sec2 .inner p {
+    color: #777789;
+}
+
+.button button{
+    background-color: var(--mainColor);
+}
+
+input::placeholder {
+    color: #757575 !important;
+}
+
+input:focus,
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+textarea {
+    height: 15rem;
+    resize: none;
+}
+
+footer .home i {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 96px;
+}
+
+footer .home a {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer .home a:hover {
+    color: var(--mainColor);
+}
+
+footer h3 {
+    font-size: 21px;
+}
+
+footer li,
+footer li a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+footer li:hover,
+footer li a:hover {
+    color: var(--mainColor);
+}
+
+footer .icon i {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+footer .icon .fa-facebook-f:hover {
+    color: rgb(7, 66, 203);
+}
+
+footer .icon .fa-twitter:hover {
+    color: rgb(0, 172, 238);
+}
+
+footer .icon .fa-whatsapp:hover {
+    color: rgb(0, 255, 0);
+}
+
+footer .icon .fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 426px) {
+    .navbar-brand {
+        margin: 0;
+        font-size: small;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .sec1 {
+        margin-top: 4rem;
+    }
+}

@@ -1,0 +1,190 @@
+:root {
+    --mainColor : #CD5C5C;
+    --secondaryColor : #343A40
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box,
+.dropdown-menu,
+footer {
+    background-color: var(--secondaryColor);
+}
+
+.dropdown-item{
+    transition: all .3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--mainColor) !important;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.dropdown-divider,
+.active {
+    border-color: var(--mainColor);
+    color: var(--mainColor) !important;
+}
+
+i .fa-user-secret {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.navbar-brand i {
+    font-size: 42px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: var(--mainColor);
+    transform: scale(0.8);
+    border-radius: 18%;
+}
+
+.sec1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 60%)), url('../img/men/imgi_30_products-background.jpg');
+    background-size: cover;
+    height: 25rem;
+}
+
+.sec1 h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.sec1 p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 3px;
+    color: #777;
+    text-transform: capitalize;
+}
+
+.sec2 .icons {
+    color: #A9A9A9;
+}
+
+.sec2 .cardd .all {
+    transition: all 0.3s ease;
+}
+
+.sec2 .cardd i {
+    cursor: pointer;
+}
+
+.sec2 .cardd:hover .all{
+    transform: scale(1.05);
+    background-color: var(--secondaryColor);
+}
+
+.sec2 .cardd:hover h3{
+    color: white;
+}
+
+.sec2 .cardd i:hover {
+    color: var(--mainColor);
+}
+
+footer .home i {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 96px;
+}
+
+footer .home a {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer .home a:hover {
+    color: var(--mainColor);
+}
+
+footer h3 {
+    font-size: 21px;
+}
+
+footer li,
+footer li a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+footer li:hover,
+footer li a:hover {
+    color: var(--mainColor);
+}
+
+footer .icon i {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+footer .icon .fa-facebook-f:hover {
+    color: rgb(7, 66, 203);
+}
+
+footer .icon .fa-twitter:hover {
+    color: rgb(0, 172, 238);
+}
+
+footer .icon .fa-whatsapp:hover {
+    color: rgb(0, 255, 0);
+}
+
+footer .icon .fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 426px) {
+    .navbar-brand {
+        margin: 0;
+        font-size: small;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .sec1 {
+        margin-top: 4rem;
+    }
+}
