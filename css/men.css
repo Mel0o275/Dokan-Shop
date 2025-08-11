@@ -62,7 +62,7 @@ i .fa-user-secret {
 }
 
 .sec1 {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, ,6)), url('../img/men/imgi_30_products-background.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 6)), url('../img/men/imgi_30_products-background.jpg');
     background-size: cover;
     height: 25rem;
 }
