@@ -93,7 +93,7 @@ i .fa-user-secret {
 }
 
 .sec2 .cardd .all {
-    transition: all 0.3s ease;
+    transition: all .3s ease;
 }
 
 .sec2 .cardd i {
