@@ -222,6 +222,12 @@ footer .icon .fa-youtube:hover {
     .nav-link {
         font-size: 14px;
     }
+
+    .img-text {
+        width: 73%;
+        height: 71%;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -236,11 +242,5 @@ footer .icon .fa-youtube:hover {
 
     .sec1 {
         margin-top: 4rem;
-    }
-
-    .img-text {
-        width: 73%;
-        height: 71%;
-        font-size: 30px;
     }
 }
